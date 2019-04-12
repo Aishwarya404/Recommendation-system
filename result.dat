@@ -12,10 +12,8 @@
 ['42', 'Dead Presidents (1995)', 'Action|Crime|Drama'] 3.71672870952
 ['44', 'Mortal Kombat (1995)', 'Action|Adventure'] 3.63573177946
 ['61', 'Eye for an Eye (1996)', 'Drama|Thriller'] 3.84795042898
-['66', 'Lawnmower Man 2: Beyond Cyberspace (1996)', 'Sci-Fi|Thriller'] 2.51805352176
 ['70', 'From Dusk Till Dawn (1996)', 'Action|Comedy|Crime|Horror|Thriller'] 4.00440557121
 ['71', 'Fair Game (1995)', 'Action'] 2.95211709565
-['76', 'Screamers (1995)', 'Sci-Fi|Thriller'] 3.70188301325
 ['79', 'Juror, The (1996)', 'Drama|Thriller'] 3.45321358687
 ['86', 'White Squall (1996)', 'Adventure|Drama'] 4.24201822559
 ['89', 'Nick of Time (1995)', 'Action|Thriller'] 3.92218623684
@@ -40,8 +38,6 @@
 ['172', 'Johnny Mnemonic (1995)', 'Action|Sci-Fi|Thriller'] 3.42436964295
 ['173', 'Judge Dredd (1995)', 'Action|Adventure|Sci-Fi'] 3.15646106728
 ['181', 'Mighty Morphin Power Rangers: The Movie (1995)', 'Action|Children'] 2.46085365479
-['185', 'Net, The (1995)', 'Sci-Fi|Thriller'] 3.7178977049
-['196', 'Species (1995)', 'Horror|Sci-Fi'] 3.67158679262
 ['198', 'Strange Days (1995)', 'Action|Crime|Sci-Fi'] 4.14381819758
 ['204', 'Under Siege 2: Dark Territory (1995)', 'Action'] 3.76913269499
 ['208', 'Waterworld (1995)', 'Action|Adventure'] 3.47928683451
@@ -53,6 +49,8 @@
 ['247', 'Heavenly Creatures (1994)', 'Drama|Fantasy|Romance|Thriller'] 4.71377852122
 ['251', 'Hunted, The (1995)', 'Action'] 4.12572820676
 ['259', 'Kiss of Death (1995)', 'Crime|Drama|Thriller'] 3.69108768388
+['260', 'Star Wars: Episode IV - A New Hope (1977)', 'Action|Adventure|Fantasy|Sci-Fi'] 5.30146213467
+['266', 'Legends of the Fall (1994)', 'Drama|Romance|War|Western'] 4.27348234387
 ['280', 'Murder in the First (1995)', 'Drama|Thriller'] 4.41870514596
 ['286', 'Nemesis 2: Nebula (1995)', 'Action|Sci-Fi|Thriller'] 3.84795042898
 ['288', 'Natural Born Killers (1994)', 'Action|Thriller'] 3.99223614327
@@ -63,8 +61,6 @@
 ['316', 'Stargate (1994)', 'Action|Adventure|Sci-Fi'] 4.33809379816
 ['327', 'Tank Girl (1995)', 'Action|Comedy|Musical|Sci-Fi'] 3.46247556864
 ['329', 'Star Trek: Generations (1994)', 'Action|Adventure|Sci-Fi'] 4.22471810575
-['332', 'Village of the Damned (1995)', 'Horror|Sci-Fi'] 3.39453427991
-['338', 'Virtuosity (1995)', 'Sci-Fi|Thriller'] 3.73030337016
 ['340', 'War, The (1994)', 'Adventure|Drama'] 4.12175995279
 ['349', 'Clear and Present Danger (1994)', 'Action|Adventure|Thriller'] 4.57410718063
 ['350', 'Client, The (1994)', 'Drama|Mystery|Thriller'] 4.24018343869
@@ -100,7 +96,6 @@
 ['466', 'Hot Shots! Part Deux (1993)', 'Action|Comedy|War'] 3.6437619473
 ['474', 'In the Line of Fire (1993)', 'Action|Thriller'] 4.67305330964
 ['479', 'Judgment Night (1993)', 'Action'] 3.64494291018
-['480', 'Jurassic Park (1993)', 'Action|Adventure|Sci-Fi'] 4.61170932078
 ['481', 'Kalifornia (1993)', 'Drama|Thriller'] 4.22890280993
 ['485', 'Last Action Hero (1993)', 'Action|Comedy'] 3.35595042898
 ['493', 'Menace II Society (1993)', 'Action|Crime|Drama'] 4.45533297932
@@ -109,9 +104,7 @@
 ['504', 'No Escape (1994)', 'Action|Sci-Fi'] 3.80300660876
 ['507', 'Perfect World, A (1993)', 'Action|Drama'] 4.37067770171
 ['511', 'Program, The (1993)', 'Action|Drama'] 3.95321358687
-['512', "Robert A. Heinlein's The Puppet Masters (1994)", 'Horror|Sci-Fi'] 3.71945880887
 ['517', 'Rising Sun (1993)', 'Action|Drama|Mystery'] 4.02334309914
-['519', 'Robocop 3 (1993)', 'Sci-Fi|Thriller'] 2.78854448839
 ['522', 'Romper Stomper (1992)', 'Action|Drama'] 4.41421548922
 ['533', 'Shadow, The (1994)', 'Action'] 3.58194057676
 ['544', 'Striking Distance (1993)', 'Action'] 3.49136128169
@@ -147,10 +140,8 @@
 ['736', 'Twister (1996)', 'Action|Adventure|Romance|Thriller'] 4.02182430285
 ['737', 'Barb Wire (1996)', 'Action|Sci-Fi'] 2.87795042898
 ['748', 'Arrival, The (1996)', 'Action|Sci-Fi|Thriller'] 3.99902956567
-['750', 'Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)', 'Sci-Fi|War'] 5.29784069965
 ['780', 'Independence Day (ID4) (1996)', 'Action|Sci-Fi|War'] 4.35835505326
 ['786', 'Eraser (1996)', 'Action|Thriller'] 3.97186347246
-['788', 'Nutty Professor, The (1996)', 'Comedy|Fantasy|Romance|Sci-Fi'] 3.8437310197
 ['798', 'Daylight (1996)', 'Action|Adventure|Thriller'] 3.55383278192
 ['809', 'Fled (1996)', 'Action|Adventure'] 3.41937900041
 ['815', 'Power 98 (1995)', 'Action|Mystery|Thriller'] 2.84795042898
@@ -162,14 +153,12 @@
 ['861', 'Supercop (1992)', 'Action|Thriller'] 4.3607709418
 ['866', 'Bound (1996)', 'Crime|Drama|Romance|Thriller'] 4.67137700241
 ['876', 'Police Story 4: Project S (Chao ji ji hua) (1993)', 'Action'] 3.70509328612
-['880', 'Island of Dr. Moreau, The (1996)', 'Sci-Fi|Thriller'] 3.04856771293
 ['882', 'Trigger Effect, The (1996)', 'Drama|Thriller'] 3.55981483576
 ['886', 'Bulletproof (1996)', 'Action'] 3.79025812129
 ['908', 'North by Northwest (1959)', 'Drama|Thriller'] 5.23198084723
 ['919', 'Wizard of Oz, The (1939)', 'Adventure|Children|Drama|Musical'] 5.09591317636
 ['924', '2001: A Space Odyssey (1968)', 'Drama|Mystery|Sci-Fi|Thriller'] 4.91671499774
 ['940', 'Adventures of Robin Hood, The (1938)', 'Action|Adventure'] 4.82149540252
-['968', 'Night of the Living Dead (1968)', 'Horror|Sci-Fi'] 4.51927910031
 ['969', 'African Queen, The (1951)', 'Action|Adventure|Romance|War'] 5.09960605812
 ['980', 'In the Line of Duty 2 (1987)', 'Action'] 3.64795042898
 ['990', 'Maximum Risk (1996)', 'Action|Adventure|Thriller'] 3.42202450305
@@ -195,7 +184,6 @@
 ['1181', 'Shooter, The (1995)', 'Action'] 3.74795042898
 ['1197', 'Princess Bride, The (1987)', 'Action|Adventure|Comedy|Romance'] 5.15166052389
 ['1200', 'Aliens (1986)', 'Action|Sci-Fi|Thriller|War'] 4.9737746048
-['1201', 'Good, The Bad and The Ugly, The (1966)', 'Action|Western'] 4.98071534981
 ['1205', 'Transformers: The Movie, The (1986)', 'Action|Animation|Children|Sci-Fi|Thriller|War'] 4.22890280993
 ['1215', 'Army of Darkness (1993)', 'Action|Adventure|Comedy|Horror|Sci-Fi'] 4.65218323321
 ['1218', 'Killer, The (Die xue shuang xiong) (1989)', 'Action|Thriller'] 5.04467174046
@@ -217,7 +205,6 @@
 ['1304', 'Butch Cassidy and the Sundance Kid (1969)', 'Action|Comedy|Western'] 5.06359524928
 ['1306', 'Until the End of the World (Bis ans Ende der Welt) (1991)', 'Drama|Sci-Fi'] 4.45089160545
 ['1320', 'Alien\xb3 (1992)', 'Action|Horror|Sci-Fi|Thriller'] 3.88578826682
-['1334', 'Blob, The (1958)', 'Horror|Sci-Fi'] 3.98404510354
 ['1335', 'Blood Beach (1981)', 'Action|Horror'] 2.56223614327
 ['1356', 'Star Trek: First Contact (1996)', 'Action|Adventure|Sci-Fi'] 4.55711073432
 ['1358', 'Sling Blade (1996)', 'Drama|Thriller'] 5.05610675863
@@ -236,6 +223,7 @@
 ['1382', 'Marked for Death (1990)', 'Action|Drama'] 3.62747798804
 ['1383', 'Adrenalin: Fear the Rush (1996)', 'Action|Sci-Fi'] 2.39340497443
 ['1385', 'Under Siege (1992)', 'Action'] 4.1169309062
+['1387', 'Jaws (1975)', 'Action|Horror'] 4.93698344785
 ['1388', 'Jaws 2 (1978)', 'Action|Horror'] 3.43713961817
 ['1389', 'Jaws 3-D (1983)', 'Action|Horror'] 2.70033138136
 ['1391', 'Mars Attacks! (1996)', 'Action|Comedy|Sci-Fi|War'] 3.74832286846
@@ -275,7 +263,6 @@
 ['1597', 'Conspiracy Theory (1997)', 'Action|Mystery|Romance|Thriller'] 4.25362243884
 ['1598', 'Desperate Measures (1998)', 'Crime|Drama|Thriller'] 3.55966214069
 ['1599', 'Steel (1997)', 'Action'] 2.48974147376
-['1603', 'Mimic (1997)', 'Sci-Fi|Thriller'] 3.7732377853
 ['1604', 'Money Talks (1997)', 'Action|Comedy'] 3.60179658283
 ['1606', 'Kull the Conqueror (1997)', 'Action|Adventure'] 3.18739997026
 ['1608', 'Air Force One (1997)', 'Action|Thriller'] 4.43624039181
@@ -295,12 +282,10 @@
 ['1683', 'Wings of the Dove, The (1997)', 'Drama|Romance|Thriller'] 4.60941831889
 ['1687', 'Jackal, The (1997)', 'Action|Thriller'] 3.92510176429
 ['1690', 'Alien: Resurrection (1997)', 'Action|Horror|Sci-Fi'] 3.80687212346
-['1692', 'Alien Escape (1995)', 'Horror|Sci-Fi'] 3.39795042898
 ['1720', 'Time Tracers (1995)', 'Action|Adventure|Sci-Fi'] 2.13366471469
 ['1722', 'Tomorrow Never Dies (1997)', 'Action|Romance|Thriller'] 4.28994578861
 ['1739', '3 Ninjas: High Noon On Mega Mountain (1998)', 'Action|Children'] 2.20965255664
 ['1744', 'Firestorm (1998)', 'Action|Adventure|Thriller'] 3.5232751043
-['1748', 'Dark City (1998)', 'Film-Noir|Sci-Fi|Thriller'] 4.67060489122
 ['1750', 'Star Kid (1997)', 'Adventure|Children|Fantasy|Sci-Fi'] 3.03842661946
 ['1752', 'Hard Rain (1998)', 'Action|Thriller'] 3.50329023481
 ['1754', 'Fallen (1998)', 'Action|Mystery|Thriller'] 4.23454836712
@@ -323,7 +308,6 @@
 ['1841', 'Gingerbread Man, The (1998)', 'Drama|Thriller'] 3.79531885003
 ['1852', 'Love Walked In (1998)', 'Drama|Thriller'] 2.84795042898
 ['1858', 'Mr. Nice Guy (1997)', 'Action|Comedy'] 4.11539228945
-['1862', 'Species II (1998)', 'Horror|Sci-Fi'] 2.89845547949
 ['1866', 'Big Hit, The (1998)', 'Action|Comedy'] 3.93789751893
 ['1867', 'Tarzan and the Lost City (1998)', 'Action|Adventure'] 3.26900306056
 ['1869', 'Black Dog (1998)', 'Action|Thriller'] 3.16167591918
@@ -331,21 +315,17 @@
 ['1882', 'Godzilla (1998)', 'Action|Sci-Fi'] 3.17259972758
 ['1899', 'Passion in the Desert (1998)', 'Adventure|Drama'] 4.04795042898
 ['1908', 'Resurrection Man (1998)', 'Drama|Thriller'] 3.84795042898
-['1909', 'X-Files: Fight the Future, The (1998)', 'Mystery|Sci-Fi|Thriller'] 4.34092231653
 ['1910', 'I Went Down (1997)', 'Action|Comedy|Crime'] 4.60404798996
 ['1912', 'Out of Sight (1998)', 'Action|Crime|Romance'] 4.64530725717
 ['1916', 'Buffalo 66 (1998)', 'Action|Comedy|Drama'] 4.35360014649
 ['1917', 'Armageddon (1998)', 'Action|Adventure|Sci-Fi|Thriller'] 4.03984232087
 ['1918', 'Lethal Weapon 4 (1998)', 'Action|Comedy|Crime|Drama'] 3.98845865021
-['1921', 'Pi (1998)', 'Sci-Fi|Thriller'] 4.63914129358
-['1924', 'Plan 9 from Outer Space (1958)', 'Horror|Sci-Fi'] 3.48248858159
 ['1953', 'French Connection, The (1971)', 'Action|Crime|Drama|Thriller'] 4.94667284478
-['1954', 'Rocky (1976)', 'Action|Drama'] 4.7903263155
 ['2000', 'Lethal Weapon (1987)', 'Action|Comedy|Crime|Drama'] 4.73485884939
 ['2001', 'Lethal Weapon 2 (1989)', 'Action|Comedy|Crime|Drama'] 4.39295537458
 ['2002', 'Lethal Weapon 3 (1992)', 'Action|Comedy|Crime|Drama'] 4.10231451876
 ['2006', 'Mask of Zorro, The (1998)', 'Action|Adventure|Romance'] 4.40949671586
-['2009', 'Soylent Green (1973)', 'Sci-Fi|Thriller'] 4.36690777495
+['2012', 'Back to the Future Part III (1990)', 'Comedy|Sci-Fi|Western'] 4.09011070773
 ['2013', 'Poseidon Adventure, The (1972)', 'Action|Adventure'] 4.30293435181
 ['2019', 'Seven Samurai (The Magnificent Seven) (Shichinin no samurai) (1954)', 'Action|Drama'] 5.40845998312
 ['2023', 'Godfather: Part III, The (1990)', 'Action|Crime|Drama'] 4.19291166929
@@ -371,9 +351,7 @@
 ['2194', 'Untouchables, The (1987)', 'Action|Crime|Drama'] 4.855936232
 ['2196', 'Knock Off (1998)', 'Action'] 3.29239487342
 ['2202', 'Lifeboat (1944)', 'Drama|Thriller|War'] 4.79161240081
-['2232', 'Cube (1997)', 'Sci-Fi|Thriller'] 4.31576158778
 ['2253', 'Toys (1992)', 'Action|Comedy|Fantasy'] 3.41158679262
-['2256', 'Parasite (1982)', 'Horror|Sci-Fi'] 3.22295042898
 ['2258', 'Master Ninja I (1984)', 'Action'] 3.84795042898
 ['2260', 'Wisdom (1986)', 'Action|Crime'] 3.64386879633
 ['2273', 'Rush Hour (1998)', 'Action|Thriller'] 4.41413862675
@@ -388,7 +366,6 @@
 ['2326', 'Shattered Image (1998)', 'Drama|Thriller'] 3.84795042898
 ['2334', 'Siege, The (1998)', 'Action|Thriller'] 3.97230276059
 ['2344', 'Runaway Train (1985)', 'Action|Adventure|Drama|Thriller'] 4.27083600112
-['2346', 'Stepford Wives, The (1975)', 'Sci-Fi|Thriller'] 4.15461709565
 ['2347', 'Pope of Greenwich Village, The (1984)', 'Action'] 4.58479253424
 ['2353', 'Enemy of the State (1998)', 'Action|Thriller'] 4.53519739254
 ['2363', 'Godzilla (Gojira) (1954)', 'Action|Sci-Fi'] 4.16688730606
@@ -399,7 +376,6 @@
 ['2370', 'Emerald Forest, The (1985)', 'Action|Adventure|Drama'] 4.36203493602
 ['2373', 'Red Sonja (1985)', 'Action|Adventure'] 3.32943191046
 ['2376', 'View to a Kill, A (1985)', 'Action'] 4.11564273667
-['2377', 'Lifeforce (1985)', 'Horror|Sci-Fi'] 3.79330562024
 ['2393', 'Star Trek: Insurrection (1998)', 'Action|Sci-Fi'] 4.19615365079
 ['2402', 'Rambo: First Blood Part II (1985)', 'Action|War'] 3.67338683796
 ['2403', 'First Blood (1982)', 'Action'] 4.41973884208
@@ -415,15 +391,10 @@
 ['2421', 'Karate Kid, Part II, The (1986)', 'Action|Adventure|Drama'] 3.52509927594
 ['2422', 'Karate Kid III, The (1989)', 'Action|Adventure|Drama'] 2.97032805136
 ['2427', 'Thin Red Line, The (1998)', 'Action|Drama|War'] 4.24645603297
-['2428', 'Faculty, The (1998)', 'Horror|Sci-Fi'] 3.62572820676
 ['2429', 'Mighty Joe Young (1998)', 'Adventure|Children|Drama'] 3.67572820676
 ['2430', 'Mighty Joe Young (1949)', 'Adventure|Children|Drama'] 3.95906154009
 ['2438', 'Outside Ozona (1998)', 'Drama|Thriller'] 4.84795042898
-['2448', 'Virus (1999)', 'Horror|Sci-Fi'] 3.19715677819
 ['2450', 'Howard the Duck (1986)', 'Adventure|Children|Sci-Fi'] 2.94702876999
-['2454', 'Fly, The (1958)', 'Horror|Sci-Fi'] 4.20628376231
-['2455', 'Fly, The (1986)', 'Horror|Sci-Fi'] 4.28866004616
-['2456', 'Fly II, The (1989)', 'Horror|Sci-Fi'] 3.16133071067
 ['2457', 'Running Scared (1986)', 'Action|Comedy'] 4.23018981122
 ['2468', "Jumpin' Jack Flash (1986)", 'Action|Comedy|Romance|Thriller'] 3.61800390492
 ['2475', '52 Pick-Up (1986)', 'Action|Mystery|Thriller'] 4.14795042898
@@ -466,14 +437,9 @@
 ['2641', 'Superman II (1980)', 'Action|Adventure|Sci-Fi'] 4.01225302945
 ['2642', 'Superman III (1983)', 'Action|Adventure|Sci-Fi'] 3.18454534092
 ['2643', 'Superman IV: The Quest for Peace (1987)', 'Action|Adventure|Sci-Fi'] 2.73650464585
-['2656', 'Tarantula (1955)', 'Horror|Sci-Fi'] 3.62214397737
-['2657', 'Rocky Horror Picture Show, The (1975)', 'Comedy|Horror|Musical|Sci-Fi'] 4.13911020189
 ['2662', 'War of the Worlds, The (1953)', 'Action|Sci-Fi|War'] 4.70635750863
-['2664', 'Invasion of the Body Snatchers (1956)', 'Horror|Sci-Fi'] 4.76037081115
-['2668', 'Swamp Thing (1982)', 'Horror|Sci-Fi'] 3.38274896378
 ['2672', 'Thirteenth Floor, The (1999)', 'Drama|Sci-Fi|Thriller'] 4.037208741
 ['2676', 'Instinct (1999)', 'Drama|Thriller'] 3.98328877484
-['2681', 'Free Enterprise (1998)', 'Comedy|Romance|Sci-Fi'] 4.45260159177
 ['2688', "General's Daughter, The (1999)", 'Drama|Thriller'] 3.98977387326
 ['2699', 'Arachnophobia (1990)', 'Action|Comedy|Sci-Fi|Thriller'] 3.85087654456
 ['2701', 'Wild Wild West (1999)', 'Action|Sci-Fi|Western'] 3.00648701435
@@ -498,7 +464,6 @@
 ['2821', 'Male and Female (1919)', 'Adventure|Drama'] 3.51461709565
 ['2823', 'Spiders, The (Die Spinnen, 1. Teil: Der Goldene See) (1919)', 'Action|Drama'] 3.34795042898
 ['2826', '13th Warrior, The (1999)', 'Action|Horror|Thriller'] 4.00661709565
-['2827', "Astronaut's Wife, The (1999)", 'Sci-Fi|Thriller'] 3.29002359971
 ['2835', 'Chill Factor (1999)', 'Action|Thriller'] 3.38366471469
 ['2850', 'Public Access (1993)', 'Drama|Thriller'] 3.56223614327
 ['2851', 'Saturn 3 (1979)', 'Adventure|Sci-Fi|Thriller'] 3.29155945154
@@ -509,8 +474,6 @@
 ['2881', 'Double Jeopardy (1999)', 'Action|Thriller'] 4.04896824068
 ['2892', 'New Rose Hotel (1998)', 'Action|Drama'] 3.34795042898
 ['2893', 'Plunkett & MaCleane (1999)', 'Action|Drama'] 3.72890280993
-['2900', 'Monkey Shines (1988)', 'Horror|Sci-Fi'] 3.53118024264
-['2901', 'Phantasm (1979)', 'Horror|Sci-Fi'] 4.05098073201
 ['2905', 'Sanjuro (1962)', 'Action|Adventure'] 5.45664608115
 ['2912', 'Limey, The (1999)', 'Action|Crime|Drama'] 4.52727532349
 ['2916', 'Total Recall (1990)', 'Action|Adventure|Sci-Fi|Thriller'] 4.53031515844
@@ -520,7 +483,6 @@
 ['2948', 'From Russia with Love (1963)', 'Action'] 4.73770399578
 ['2949', 'Dr. No (1962)', 'Action'] 4.72256343208
 ['2950', 'Blue Lagoon, The (1980)', 'Adventure|Drama|Romance'] 3.18032037118
-['2951', 'Fistful of Dollars, A (1964)', 'Action|Western'] 4.84219227159
 ['2956', 'Someone to Watch Over Me (1987)', 'Action|Crime|Thriller'] 3.98270220203
 ['2965', 'Omega Code, The (1999)', 'Action'] 2.87572820676
 ['2967', 'Bad Seed, The (1956)', 'Drama|Thriller'] 4.59598192504
@@ -534,15 +496,14 @@
 ['2993', 'Thunderball (1965)', 'Action'] 4.55339597353
 ['3000', 'Princess Mononoke, The (Mononoke Hime) (1997)', 'Action|Adventure|Animation'] 4.99577651594
 ['3020', 'Falling Down (1993)', 'Action|Drama'] 4.30024050532
-['3024', 'Piranha (1978)', 'Horror|Sci-Fi'] 3.19577651594
 ['3029', 'Nighthawks (1981)', 'Action|Drama'] 4.12163463951
-['3058', 'Ape, The (1940)', 'Horror|Sci-Fi'] 3.01461709565
 ['3062', 'Longest Day, The (1962)', 'Action|Drama|War'] 4.81954133807
 ['3070', 'Adventures of Buckaroo Bonzai Across the 8th Dimension, The (1984)', 'Adventure|Comedy|Sci-Fi'] 4.23583913602
 ['3082', 'World Is Not Enough, The (1999)', 'Action|Thriller'] 4.22730077701
 ['3104', 'Midnight Run (1988)', 'Action|Adventure|Comedy|Crime'] 4.70415957931
 ['3107', 'Backdraft (1991)', 'Action|Drama'] 4.28868690769
 ['3113', 'End of Days (1999)', 'Action|Thriller'] 3.47738305309
+['3122', 'Santa Fe Trail (1940)', 'Drama|Romance|Western'] 4.22726077381
 ['3137', 'Sea Wolves, The (1980)', 'Action|War'] 4.66045042898
 ['3139', 'Tarzan the Fearless (1933)', 'Action|Adventure'] 4.02442101722
 ['3147', 'Green Mile, The (1999)', 'Drama|Thriller'] 5.00261491343
@@ -573,7 +534,6 @@
 ['3314', 'Big Trees, The (1952)', 'Action|Drama'] 4.09795042898
 ['3316', 'Reindeer Games (2000)', 'Action|Thriller'] 3.61611651895
 ['3334', 'Key Largo (1948)', 'Crime|Drama|Film-Noir|Thriller'] 4.93037993006
-['3340', 'Bride of the Monster (1956)', 'Horror|Sci-Fi'] 3.65076733039
 ['3366', 'Where Eagles Dare (1969)', 'Action|Adventure|War'] 4.6592711837
 ['3370', 'Betrayed (1988)', 'Drama|Thriller'] 4.27818298712
 ['3372', 'Bridge at Remagen, The (1969)', 'Action|War'] 4.40152185755
@@ -586,6 +546,7 @@
 ['3406', 'Captain Horatio Hornblower (1951)', 'Action|Adventure|War'] 4.60033138136
 ['3409', 'Final Destination (2000)', 'Drama|Thriller'] 4.12028158366
 ['3417', 'Crimson Pirate, The (1952)', 'Adventure|Comedy|Sci-Fi'] 4.43699152487
+['3418', 'Thelma & Louise (1991)', 'Action|Drama'] 4.52803517474
 ['3420', '...And Justice for All (1979)', 'Drama|Thriller'] 4.56151826818
 ['3430', 'Death Wish (1974)', 'Action|Drama'] 4.18885951989
 ['3431', 'Death Wish II (1982)', 'Action|Drama'] 3.51853866427
@@ -601,11 +562,8 @@
 ['3444', 'Bloodsport (1988)', 'Action'] 4.07317565421
 ['3452', 'Romeo Must Die (2000)', 'Action|Romance'] 3.98994438668
 ['3461', 'Lord of the Flies (1963)', 'Adventure|Drama|Thriller'] 4.51367280858
-['3464', 'Solar Crisis (1993)', 'Sci-Fi|Thriller'] 3.29795042898
 ['3470', 'Dersu Uzala (1974)', 'Adventure|Drama'] 5.1740373855
 ['3471', 'Close Encounters of the Third Kind (1977)', 'Drama|Sci-Fi'] 4.86242320637
-['3474', 'Retroactive (1997)', 'Sci-Fi|Thriller'] 4.03545042898
-['3488', 'Hideous Sun Demon, The (1959)', 'Horror|Sci-Fi'] 2.84795042898
 ['3503', 'Solaris (Solyaris) (1972)', 'Drama|Sci-Fi'] 4.30249588353
 ['3510', 'Frequency (2000)', 'Drama|Thriller'] 4.60678112326
 ['3513', 'Rules of Engagement (2000)', 'Drama|Thriller'] 4.1955694766
@@ -616,9 +574,6 @@
 ['3553', 'Gossip (2000)', 'Drama|Thriller'] 3.61624311191
 ['3555', 'U-571 (2000)', 'Action|Thriller'] 4.38759800607
 ['3563', 'Crow: Salvation, The (2000)', 'Action|Horror'] 2.77102735206
-['3572', 'Carnosaur (1993)', 'Horror|Sci-Fi'] 2.57522315625
-['3573', 'Carnosaur 2 (1995)', 'Horror|Sci-Fi'] 2.30948889052
-['3574', 'Carnosaur 3: Primal Species (1996)', 'Horror|Sci-Fi'] 1.90677395839
 ['3576', 'Hidden, The (1987)', 'Action|Horror|Sci-Fi'] 4.53104902053
 ['3578', 'Gladiator (2000)', 'Action|Drama'] 4.95397953501
 ['3584', 'Breathless (1983)', 'Action|Drama|Romance|Thriller'] 3.61539228945
@@ -631,9 +586,7 @@
 ['3638', 'Moonraker (1979)', 'Action|Romance|Sci-Fi'] 4.03966822039
 ['3639', 'Man with the Golden Gun, The (1974)', 'Action'] 4.4770176741
 ['3643', 'Fighting Seabees, The (1944)', 'Action|Drama|War'] 4.28359399334
-['3648', 'Abominable Snowman, The (1957)', 'Horror|Sci-Fi'] 3.51461709565
 ['3654', 'Guns of Navarone, The (1961)', 'Action|Drama|War'] 4.81209385527
-['3659', 'Quatermass II (1957)', 'Sci-Fi|Thriller'] 4.05847674477
 ['3660', 'Puppet Master (1989)', 'Horror|Sci-Fi|Thriller'] 3.70782304044
 ['3661', 'Puppet Master II (1990)', 'Horror|Sci-Fi|Thriller'] 3.05526750215
 ['3662', "Puppet Master III: Toulon's Revenge (1991)", 'Horror|Sci-Fi|Thriller'] 2.94577651594
@@ -642,12 +595,12 @@
 ['3665', 'Curse of the Puppet Master (1998)', 'Horror|Sci-Fi|Thriller'] 2.57871965975
 ['3666', 'Retro Puppetmaster (1999)', 'Horror|Sci-Fi|Thriller'] 2.51461709565
 ['3667', 'Rent-A-Cop (1988)', 'Action|Comedy'] 2.76223614327
-['3696', 'Night of the Creeps (1986)', 'Comedy|Horror|Sci-Fi'] 3.40179658283
 ['3697', 'Predator 2 (1990)', 'Action|Sci-Fi|Thriller'] 3.71575758295
 ['3698', 'Running Man, The (1987)', 'Action|Adventure|Sci-Fi'] 4.04658056597
 ['3699', 'Starman (1984)', 'Adventure|Drama|Romance|Sci-Fi'] 4.30922210528
 ['3700', 'Brother from Another Planet, The (1984)', 'Drama|Sci-Fi'] 4.43331628264
 ['3701', 'Alien Nation (1988)', 'Crime|Drama|Sci-Fi'] 4.07215677819
+['3702', 'Mad Max (1979)', 'Action|Sci-Fi'] 4.51211553217
 ['3703', 'Mad Max 2 (a.k.a. The Road Warrior) (1981)', 'Action|Sci-Fi'] 4.52203166689
 ['3704', 'Mad Max Beyond Thunderdome (1985)', 'Action|Sci-Fi'] 4.01415541513
 ['3705', 'Bird on a Wire (1990)', 'Action|Adventure|Romance|Thriller'] 3.4321609553
@@ -680,24 +633,17 @@
 ['3810', 'White Sands (1992)', 'Drama|Thriller'] 3.98048054946
 ['3826', 'Hollow Man (2000)', 'Horror|Sci-Fi|Thriller'] 3.38622203392
 ['3827', 'Space Cowboys (2000)', 'Action|Sci-Fi'] 4.23079561726
-['3833', "Brain That Wouldn't Die, The (1962)", 'Horror|Sci-Fi'] 3.38366471469
 ['3834', 'Bronco Billy (1980)', 'Adventure|Drama|Romance'] 3.67181406534
 ['3836', "Kelly's Heroes (1970)", 'Action|Comedy|War'] 4.75728376231
 ['3841', 'Air America (1990)', 'Action|Comedy'] 3.60285238976
 ['3848', 'Silent Fall (1994)', 'Drama|Thriller'] 3.94795042898
-['3863', 'Cell, The (2000)', 'Sci-Fi|Thriller'] 4.10934860527
 ['3864', 'Godzilla 2000 (Gojira ni-sen mireniamu) (1999)', 'Action|Adventure|Sci-Fi'] 3.54025812129
 ['3877', 'Supergirl (1984)', 'Action|Adventure|Fantasy'] 2.86992845096
 ['3879', 'Art of War, The (2000)', 'Action'] 3.6326726512
 ['3889', 'Highlander: Endgame (2000)', 'Action|Adventure|Fantasy'] 3.26276524379
 ['3898', 'Bait (2000)', 'Action|Comedy'] 3.58128376231
-['3923', 'Return of the Fly (1959)', 'Horror|Sci-Fi'] 3.4248735059
 ['3926', 'Voyage to the Bottom of the Sea (1961)', 'Adventure|Sci-Fi'] 4.20906154009
 ['3927', 'Fantastic Voyage (1966)', 'Adventure|Sci-Fi'] 4.42841019909
-['3931', 'Giant Gila Monster, The (1959)', 'Horror|Sci-Fi'] 2.88498746602
-['3932', 'Invisible Man, The (1933)', 'Horror|Sci-Fi'] 4.59795042898
-['3933', 'Killer Shrews, The (1959)', 'Horror|Sci-Fi'] 3.09795042898
 ['3936', 'Phantom of the Opera, The (1943)', 'Drama|Thriller'] 4.57116471469
-['3937', 'Runaway (1984)', 'Sci-Fi|Thriller'] 3.78869116972
 ['3946', 'Get Carter (2000)', 'Action|Drama|Thriller'] 3.10795042898
 ['3952', 'Contender, The (2000)', 'Drama|Thriller'] 4.62887826403

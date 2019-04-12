@@ -67,9 +67,9 @@ for i in range(r):
 
 # for u in p:
 # 	print u
-print "\n ********** P **************\n"
+print "********** P **************"
 # print p[u-1]
 for g in genres:
 	genre_index= int(genres.index(g))
-	print g," : ",p[u-1][genre_index],"\n"
+	print g," : ",p[u-1][genre_index]
 # time python calc_p.py

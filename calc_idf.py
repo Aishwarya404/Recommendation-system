@@ -62,8 +62,8 @@ for i in ratingList:
 	if int(i[0]) == user and int(i[1]) in to_pred :
 		ratingList.remove(i)		
 
-for x in to_pred:
-	print to_pred_oldrat[x]
+# for x in to_pred:
+# 	print to_pred_oldrat[x]
 # for i in ratingList:
 # 	if i[0] == str(user):
 # 		print i

@@ -38,7 +38,13 @@ rec_rating = [0 for x in range(r_m+1)]
 print "final recommended rec_movies size ",len(rec_movies)
 
 for movie in rec_movies:
-	rec_rating[int(movie)] = (0.5 * product_based_rat[int(movie)]) + (0.5 * user_based_rat[int(movie)])
+	if movie in product_based_rec and movie in user_based_rec:
+		rec_rating[int(movie)] = (0.8 * product_based_rat[int(movie)]) + (0.2 * user_based_rat[int(movie)])
+	elif movie in product_based_rec:
+		rec_rating[int(movie)] = product_based_rat[int(movie)]
+	elif movie in user_based_rec:
+		rec_rating[int(movie)] = user_based_rat[int(movie)]
+
 	if rec_rating[int(movie)]>5:
 		rec_rating[int(movie)] = 5
 	# print movieList[int(movie)-1], rec_rating[int(movie)]
@@ -71,4 +77,16 @@ for i in to_pred:
 
 print " ERROR: ", float(error)/float(len(to_pred))
 
+
+#RECALL CODE
+rec_movies_for_recall = []
+for i in rec_movies:
+	if rec_rating[i] > 4:
+		rec_movies_for_recall.append(i)
+
+intersection_set = list(set(to_pred).intersection(set(rec_movies_for_recall)))
+RECALL = float(len(intersection_set))/ float(len(to_pred))
+print "RECALL: ", RECALL
+print "intersection_set:",intersection_set
+print "to_pred:",to_pred
 # time python main.py
