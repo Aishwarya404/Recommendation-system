@@ -24,10 +24,18 @@ for rating in ratingList:
 		p[user][genre_index] += int(rating[2])
 
 	total_genres[user] += len(row_genre)*int(rating[2])
-	
+
+
+for i in range(len(total_genres)):
+	if total_genres[i] == 0:
+		print i
+
 for i in range(r):
 	for j in range(c):
-		p[i][j] = (float(p[i][j])/float(total_genres[i]))
+		if(total_genres[i] != 0):
+			p[i][j] = (float(p[i][j])/float(total_genres[i]))
+		else:
+			p[i][j] = 0
 
 
 user_unique_genres = [0 for x in range(r)]
@@ -37,6 +45,9 @@ for i in range(r):
 		if p[i][j]!=0 :
 			user_unique_genres[i] += 1
 
+for i in range(len(user_unique_genres)):
+	if user_unique_genres[i] == 0:
+		print i
 sum = 0
 for i in range(r):
 	#find normalised values
@@ -50,7 +61,10 @@ for i in range(r):
 	for j in range(c):
 		w_sum += p[i][j]
 	# p[i].append(float(w_sum)/float(c))
-	p[i].append(float(w_sum)/float(user_unique_genres[i]))
+	if user_unique_genres[i]!=0:
+		p[i].append(float(w_sum)/float(user_unique_genres[i]))
+	else: 
+		p[i].append(0.0)
 	sum=0 
 # sum = 0
 # for i in range(r):

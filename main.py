@@ -17,6 +17,9 @@ u = calc_idf.user
 genres = calc_idf.genres
 to_pred = calc_idf.to_pred
 to_pred_oldrat = calc_idf.to_pred_oldrat
+rated = calc_idf.rated
+avgrat = users.avgrat
+orig_rated = calc_idf.orig_rated
 
 print "target user:",u
 
@@ -81,12 +84,17 @@ print " ERROR: ", float(error)/float(len(to_pred))
 #RECALL CODE
 rec_movies_for_recall = []
 for i in rec_movies:
-	if rec_rating[i] > 4:
-		rec_movies_for_recall.append(i)
+	# if rec_rating[i] >= avgrat[u]+1.0:
+	# 	rec_movies_for_recall.append(i)
+	rec_movies_for_recall.append(i)
 
-intersection_set = list(set(to_pred).intersection(set(rec_movies_for_recall)))
-RECALL = float(len(intersection_set))/ float(len(to_pred))
+
+# intersection_set = list(set(to_pred).intersection(set(rec_movies_for_recall)))
+intersection_set = list(set(orig_rated).intersection(set(rec_movies_for_recall)))
+# RECALL = float(len(intersection_set))/ float(len(to_pred))
+RECALL = float(len(intersection_set))/ float(len(orig_rated))
 print "RECALL: ", RECALL
-print "intersection_set:",intersection_set
-print "to_pred:",to_pred
+# print "intersection_set:",intersection_set
+# print "orig_rated:",orig_rated
+# print "to_pred:",to_pred
 # time python main.py

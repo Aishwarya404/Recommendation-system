@@ -86,9 +86,11 @@ avgratcount = [0 for x in range(r+1)]
 for i in range(len(ratingList)):
     avgrat[int(ratingList[i][0])] += int(ratingList[i][2])
     avgratcount[int(ratingList[i][0])] += 1
-for i in range(len(users)):
-    avgrat[int(users[i])] = float(avgrat[int(users[i])] / avgratcount[int(users[i])])
-
+for i in range(len(users)):    
+    if int(avgratcount[int(users[i])]) != 0:
+        avgrat[int(users[i])] = float(avgrat[int(users[i])]) / float(avgratcount[int(users[i])])
+    else:
+        avgrat[int(users[i])] = 0.0
 
 for i in range(len(ratingList)):
     if ratingList[i][0] in fset and int(ratingList[i][2]) >= 4:

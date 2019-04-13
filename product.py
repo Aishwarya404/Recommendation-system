@@ -40,6 +40,7 @@ sim_ij = [[0 for x in range(r_m+1)] for y in range(r_m+1)]
 # 				sim_ij[int(i)][int(j)]=k
 
 g = 0
+
 for i in movieslevel1 :
 	for j in rated :
 		k = prod_sim.findSim(i,j)

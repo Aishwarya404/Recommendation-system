@@ -9,7 +9,8 @@ def findSim(m1,m2):
 	den2 = 0
 	den = 1
 	m1 = int(m1)-1
-	m2 = int(m2)-1
+	m2 = int(m2)-1	
+
 
 	for i in range(len(q[0])):
 		if q[m1][len(q[0])-1]==1:

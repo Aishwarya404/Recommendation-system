@@ -1,13 +1,24 @@
 import numpy
 import math
 import random
+import testdata
 
 # initialise all lists by reading dat files and their manipulation
 
-movieList = [i.strip().split('::') for i in open("movies.dat").readlines()]
-userList = [i.strip().split('::') for i in open("users.dat").readlines()]
-ratingList = [i.strip().split('::') for i in open("ratings.dat").readlines()]
-# ratingList2 = [i.strip().split('::') for i in open("ratings2.dat").readlines()]
+movieList = testdata.movieList_test
+userList = testdata.userList_test
+ratingList = testdata.ratingList_test
+
+movies = [movieList[i][0] for i in range(len(movieList))]
+users = [userList[i][0] for i in range(len(userList))]
+genres= [ 'Action','Adventure','Animation','Children','Comedy', 'Crime','Documentary','Drama','Fantasy','Film-Noir','Horror','Musical', 'Mystery', 'Romance', 'Sci-Fi', 'Thriller', 'War','Western']
+c, r, r_m, user = 18, len(users), len(movies), testdata.target_user
+
+# c, r, r_m, user = 18, len(users), len(movies), 15
+#movieList = [i.strip().split('::') for i in open("movies.dat").readlines()]
+#userList = [i.strip().split('::') for i in open("users.dat").readlines()]
+#ratingList = [i.strip().split('::') for i in open("rating_testdata.dat").readlines()]
+
 
 # for u in ratingList :
 # 	movieID = int(u[1])
@@ -29,20 +40,19 @@ ratingList = [i.strip().split('::') for i in open("ratings.dat").readlines()]
 #     	f.write("%s\n" % item[k+1])
 
 
-c, r, r_m, user = 18, 6040, 3952, 4
-movies = [movieList[i][0] for i in range(len(movieList))]
-users = [userList[i][0] for i in range(len(userList))]
-genres= [ 'Action','Adventure','Animation','Children','Comedy', 'Crime','Documentary','Drama','Fantasy','Film-Noir','Horror','Musical', 'Mystery', 'Romance', 'Sci-Fi', 'Thriller', 'War','Western']
 
 # movies and ratings of those watched by our user
 rated = []
 rated_rat = [0 for x in range(r_m+1)]
 
 for i in range(len(ratingList)) :
+	# print i
 	if ratingList[i][0] == str(user):
 		rated.append(int(ratingList[i][1]))
+		# print int(ratingList[i][1]), int(ratingList[i][2])
 		rated_rat[int(ratingList[i][1])] = int(ratingList[i][2])
 
+orig_rated = rated
 # print rated
 # randomly choose 0.2% movies to predict and remove from rated
 to_pred = [] 
